@@ -1,0 +1,760 @@
+/*
+Theme Name: Update Consultoria
+Text Domain: update
+Author: Criativerso
+Author URI: https://criativerso.com.br/
+*/
+
+@import url("https://updateconsultoria.com.br/wp-content/themes/update/css/fonts.css");
+
+* {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #0065ce;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+h2 {
+    color: #545454;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+}
+
+p {
+    font-size: 22px;
+}
+
+.owl-dots {
+    text-align: center;
+}
+
+.owl-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #ffffff!important;
+    border: 1px solid #CACACA!important;
+    margin: 0 5px;
+}
+
+.owl-dot.active {
+    background-color: #EAEAEA!important;
+}
+
+#contato input[type="text"],
+#contato input[type="tel"],
+#contato input[type="email"],
+#contato textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+}
+
+#formularios input[type="text"],
+#formularios input[type="tel"],
+#formularios input[type="email"],
+#formularios textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+}
+
+textarea {
+    height: 130px;
+}
+
+.wpcf7-not-valid {
+	border: 3px solid darkred!important;
+}
+
+.wpcf7-not-valid-tip {
+	display: none!important;
+}
+
+#contato .wpcf7-response-output {
+	border: 0!important;
+    color: #ffffff;
+}
+
+#formularios .wpcf7-response-output {
+	border: 0!important;
+    color: #ffffff;
+}
+
+.btn-azul {
+    color: #ffffff!important;
+    padding: 12px 25px!important;
+    background-color: #0065ce!important;
+    border: 0!important;
+    border-radius: 15px!important;
+    font-size: 20px!important;
+    transition: 0.3s!important;
+}
+
+.btn-azul:hover {
+    opacity: 0.8!important;
+    color: #ffffff!important;
+}
+
+#introducao {
+    padding: 210px 0 400px;
+    background-image: url('https://updateconsultoria.com.br/wp-content/themes/update/assets/images/banner-principal-home.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+#introducao p {
+    margin: 30px 0;
+}
+
+@media (min-width: 768px) {
+    #introducao {
+        padding: 220px 0 400px;
+    }
+}
+
+#quadrado {
+    margin-top: -280px;
+}
+
+#quem-somos {
+    padding: 120px 0 85px;
+}
+
+#quem-somos p {
+    margin: 30px 0;
+    padding-right: 30px;
+}
+
+#quem-somos h2 {
+    margin-top: 25px;
+}
+
+@media (min-width: 768px) {
+    #quem-somos {
+        padding: 125px 0;
+    }
+
+    #quem-somos h2 {
+        margin-top: 0;
+    }
+}
+
+#servicos img {
+    margin-bottom: 18px;
+}
+
+#cursos {
+    padding: 100px 0;
+}
+
+#cursos .cursos-container {
+    margin-top: 50px;
+}
+
+#cursos .cursos-container .curso {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 50px;
+}
+
+#cursos .cursos-container .curso a {
+	color: #ffffff;
+}
+
+@media (min-width: 768px) {
+    #cursos .cursos-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #cursos .cursos-container .curso {
+        width: 32%;
+        margin: 0 30px;
+    }
+}
+
+#cursos .cursos-container .curso:hover {
+    opacity: 0.8;
+}
+
+#cursos .cursos-container .curso div {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    width: calc(100% - 10px);
+}
+
+#cursos .cursos-container .curso, #cursos .cursos-container .curso h2 {
+    color: #ffffff!important;
+}
+
+#cursos .cursos-container .curso p {
+    font-size: 18px;
+}
+
+#cursos .cursos-container .curso h2 {
+    position: relative;
+    font-size: 35px;
+}
+
+#cursos .cursos-container .curso h2:after {
+    content: '';
+    width: 70%;
+    height: 5px;
+    background-color: #0065ce;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#time ul {
+    list-style: none;
+    padding: 0;
+    margin: 40px 0 70px;
+}
+
+#time ul li .texto {
+    width: 65%;
+}
+
+#time ul li .text h3 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.parceiro-container {
+    display: flex;
+    align-items: center;
+}
+
+.parceiro {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+    #time ul li {
+        display: flex;
+    }
+
+    #time ul li img {
+        margin-right: 8%;
+        width: 27%!important;
+    }
+
+    #time ul {
+        margin: 70px 0 100px;
+    }
+
+    #time ul li .text h3 {
+        margin-top: 0;
+    }
+}
+
+#contato {
+    margin-top: 70px;
+    padding: 70px 0;
+    background-image: url('https://updateconsultoria.com.br/wp-content/themes/update/assets/images/banner-contato.png');
+    background-position: center;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    #contato {
+        padding: 100px 0;
+        margin-top: 100px;
+    }
+}
+
+#contato h2, #contato p {
+    color: #ffffff;
+}
+
+#contato img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+}
+
+#contato form {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #1c1c1c;
+    height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer p, footer p a {
+	color: #ffffff;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+#curso-inicio {
+    padding: 240px 0 120px;
+    background-image: url('https://updateconsultoria.com.br/wp-content/themes/update/assets/images/banner-principal-curso.png');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: -20px;
+}
+
+#curso-inicio h1, #curso-inicio p {
+    color: #ffffff;
+}
+
+#objetivo {
+    padding: 70px 0;
+    background-color: #ffffff;
+}
+
+#objetivo-inverse {
+    background-color: #ffffff;
+}
+
+#objetivo ul {
+    list-style: none;
+    padding: 0;
+}
+
+#objetivo ul li {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+#objetivo h2, #objetivo-inverse h2 {
+    margin-bottom: 30px;
+}
+
+#objetivo-inverse {
+    padding-bottom: 100px;
+}
+
+@media (min-width: 768px) {
+    #objetivo {
+        padding: 100px 0;
+    }
+}
+
+#conteudo {
+    padding-bottom: 70px;
+    background-color: #ffffff;
+}
+
+#conteudo h2 {
+    color: #0065ce;
+    margin-bottom: 50px;
+}
+
+#conteudo ul {
+    list-style: none;
+    padding: 0;
+}
+
+#conteudo ul li {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+@media (min-width: 768px) {
+    #conteudo {
+        padding-bottom: 100px;
+    }
+}
+
+#instrutor {
+    background-color: #EEEEEE;
+    padding: 70px 0;
+}
+
+#instrutor .instrutor .texto {
+    padding: 20px 40px;
+    border-bottom: 1px solid #545454;
+    border-right: 1px solid #545454;
+    border-left: 1px solid #545454;
+}
+
+#instrutor .instrutor .texto h3 {
+    color: #000000;
+}
+
+#instrutor .instrutor .texto p {
+    font-size: 20px;
+}
+
+#instrutor .instrutor .texto a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    #instrutor {
+        padding: 100px 0;
+    }
+
+    #instrutor .instrutor {
+        display: flex;
+    }
+    
+    #instrutor .instrutor img {
+        width: 45%;
+    }
+    
+    #instrutor .instrutor .texto {
+        padding: 20px 40px;
+        border-top: 1px solid #545454;
+        border-left: 0;
+    }
+}
+
+#infos {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+#infos h3 {
+    font-size: 1.9rem!important;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#infos ul li {
+    margin-top: 60px;
+}
+
+#infos .conteudo {
+    position: relative;
+}
+
+#infos .conteudo:after {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -75px;
+    height: calc(100% + 40px);
+    width: 14px;
+    background-color: #01265D;
+    border-radius: 7px;
+}
+
+#investimento {
+    background-color: #01265D;
+    padding: 70px 0;
+}
+
+#investimento h2 {
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+#investimento p {
+    background-color: #0065ce;
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+#investimento ul li {
+    font-size: 1.5rem!important;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    #investimento {
+        padding: 100px 0;
+    }
+
+    #investimento p {
+        font-size: 5rem;
+        margin-bottom: 0;
+    }
+}
+
+#formularios {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+#formularios h2, 
+#formularios h3 {
+    color: #0065ce;
+}
+
+#formularios form {
+    margin-top: 50px;
+}
+
+#formularios h3 {
+    margin-bottom: 40px;
+}
+
+#menu-mobile {
+    position: fixed;
+    z-index: 9;
+    top: 120px;
+    left: 0;
+    width: 100vw;
+    height: calc(100vh - 120px);
+    background-color: rgba(133, 133, 133, 0.9);
+    transition: 0.3s;
+}
+
+#menu-mobile.hide {
+    left: 100vw;
+}
+
+#menu-mobile ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin-top: 70px;
+}
+
+#menu-mobile ul li {
+    margin: 20px 0;
+}
+
+#menu-mobile ul li a {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.pre-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 50px;
+    background-color: #b3b3b3;
+    z-index: 999;
+}
+
+.pre-menu ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.pre-menu ul li {
+    margin: 0 17.5px;
+}
+
+.pre-menu ul li a {
+    color: #ffffff;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.pre-menu ul li a:hover {
+    opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+    .pre-menu {
+        padding-left: 20px;
+    }
+
+    .pre-menu ul {
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 1400px) {
+    .pre-menu {
+        padding-left: 65px;
+    }
+}
+
+.menu-desktop {
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 50px;
+    width: 100vw;
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+
+.menu-desktop img {
+    height: 70px;
+    width: auto;
+    margin-left: 5px;
+}
+
+@media (min-width: 1400px) {
+    .menu-desktop img {
+        margin-left: 50px;
+    }
+}
+
+.menu-desktop ul {
+    position: fixed;
+    height: calc(70px + 20px);
+    padding: 0;
+    margin: 0;
+    right: 0;
+    top: 50px;
+    list-style: none;
+    display: flex;
+}
+
+.menu-desktop ul li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+
+.menu-desktop ul li a {
+    font-weight: 600;
+    color: #434a54;
+    transition: 0.2s;
+}
+
+.menu-desktop ul li a:hover {
+    color: #434a54;
+    opacity: 0.7;
+}
+
+.menu-desktop ul li.azul {
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.menu-desktop ul li.azul a {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    width: 100%;
+    height: 100%;
+    background-color: #0065ce;
+    color: #ffffff;
+}
+
+#navMobile {
+    background-color: #858585;
+    position: fixed;
+    z-index: 9;
+    top: 50px;
+    left: 0;
+    width: 100vw;
+    height: 70px;
+}
+
+#navMobile img {
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 50%;
+    width: auto;
+    transform: translateX(-50%);
+}
+
+.toggle {
+	left: 0;
+}
+
+.toggle-menu {
+	background-color: rgba(0, 0, 0, 0.2);
+	position: fixed;
+	top: 70px;
+	right: 20px;
+	width: 40px;
+	height: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+    padding: 2px 2px 2px 3px;
+	border-radius: 5px;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.line {
+	width: 100%;
+	height: 3px;
+	border-radius: 5px;
+	background-color: #fff;
+	transition: transform 0.2s ease-out;
+	-webkit-transition: transform 0.2s ease-out;
+	-moz-transition: transform 0.2s ease-out;
+	-ms-transition: transform 0.2s ease-out;
+	-o-transition: transform 0.2s ease-out;
+}
+
+.toggle .line1 {
+	background-color: #ffffff;
+	transform: scale(0.9) rotateZ(-45deg) translate(-6px, 4px);
+}
+
+.toggle .line2 {
+	display: none;
+}
+
+.toggle .line3 {
+	background-color: #ffffff;
+	transform: scale(0.9) rotateZ(45deg) translate(-6px, -4px);
+}
+
+.toggle .toggle-menu {
+	background-color: rgba(0, 0, 0, 0);
+}
